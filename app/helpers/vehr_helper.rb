@@ -1,0 +1,2 @@
+module VehrHelper
+end

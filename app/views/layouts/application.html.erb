@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JJV</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'classie' %>
+  <%= javascript_include_tag 'modernizr.custom' %>
+  <%= csrf_meta_tags %>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="cbp-spmenu-push">
+  <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-vertical-left cbp-spmenu-left" id="cbp-spmenu-s1">
+	<h3>Brief</h3>
+	<p class="flow-text">I'm a developer based in Jacskon, WY</p>
+  <p class="flow-text">My primary focus is on the Rails framework writing Ruby. I've developed custom client-side and server-side applications while also consulting for well established organizations, Universities, Government, Non-Profits and Educational</p>
+  <p class="flow-text">My developmet career started when I joined the <a href="http://issuu.com/greatercharlottebiz/docs/greater_charlotte_biz_2012.09/24" target="_blank">KYCK</a> team, a startup in Charlotte NC. I was mentored by a talented Ruby engineered and learned quickly the intensity of a startup</p>
+  <p class="flow-text">These days I'm finding inspiration and working at the base of the <a href="https://en.wikipedia.org/wiki/Teton_Range" target="_blank">Teton Range</a> in Wyoming. A far cry from the Carolina's where there are two seasons, winter, and not winter</p>
+  </p>
+</nav>
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-vertical-right cbp-spmenu-right" id="cbp-spmenu-s2">
+	<h3>Past Clients</h3>
+	<ul>
+    <li><%= image_tag 'vista.png', class: 'vista' %>
+    </li>
+    <li><%= image_tag 'wmi.png', class: 'wmi' %></li>
+    <li><%= image_tag 'nols.png', class: 'nols' %></li>
+    <li><%= image_tag 'umb.png', class: 'umb' %></li>
+    <li><%= image_tag 'silicon-logo.png',class: 'silicon' %></li>
+    <li><%= image_tag 'kyck.png' %></li>
+  </ul>
+    </div>
+</nav>
+<nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="cbp-spmenu-s3">
+	<h3>Menu</h3>
+	<a href="#">Celery seakale</a>
+	<a href="#">Dulse daikon</a>
+	<a href="#">Zucchini garlic</a>
+	<a href="#">Catsear azuki bean</a>
+	<a href="#">Dandelion bunya</a>
+	<a href="#">Rutabaga</a>
+	<a href="#">Celery seakale</a>
+	<a href="#">Dulse daikon</a>
+	<a href="#">Zucchini garlic</a>
+	<a href="#">Catsear azuki bean</a>
+	<a href="#">Dandelion bunya</a>
+	<a href="#">Rutabaga</a>
+</nav>
+<nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-bottom" id="cbp-spmenu-s4">
+			<h3>Menu</h3>
+			<a href="#">Celery seakale</a>
+			<a href="#">Dulse daikon</a>
+			<a href="#">Zucchini garlic</a>
+			<a href="#">Catsear azuki bean</a>
+			<a href="#">Dandelion bunya</a>
+			<a href="#">Rutabaga</a>
+			<a href="#">Celery seakale</a>
+			<a href="#">Dulse daikon</a>
+			<a href="#">Zucchini garlic</a>
+			<a href="#">Catsear azuki bean</a>
+			<a href="#">Dandelion bunya</a>
+			<a href="#">Rutabaga</a>
+		</nav>
+
+<%= yield %>
+
+</body>
+</html>

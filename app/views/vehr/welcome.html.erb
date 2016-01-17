@@ -1,0 +1,58 @@
+<script type="text/javascript">
+
+$(document).ready(function(){
+   // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+   $('.modal-trigger').leanModal();
+   $('ul.tabs').tabs();
+ });
+</script>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <h4>John <span>J. Vehr</span></h4>
+      <p>
+        <span>Brief Background</span><br>
+        I'm a Full Stack Developer based in Jacskon, WY. My primary focus is on the Rails framework writing Ruby. I've developed custom client-side and server-side applications while also consulting for well established organizations, Universities, Government, Non-Profits and Educational.
+        My developmet career took off when I joined the <a href="http://issuu.com/greatercharlottebiz/docs/greater_charlotte_biz_2012.09/24" target="_blank">KYCK</a> team, a startup in Charlotte NC from the same founders who started Mountain Khakis. I was mentored by a very talented Ruby engineered and learned quickly the intensity of a startup.
+        These days I'm finding inspiration and working at  the base of the <a href="https://en.wikipedia.org/wiki/Teton_Range" target="_blank">Teton Range</a> in Wyoming. A far cry from the Carolina's where 7 Months out of the year I'm wearing a down coat and burning a wood stove.</p>
+    </div>
+  </div>
+  <!-- clients -->
+  <div class="row">
+    <div class="col s12">
+      <p><span>Clients</span></p>
+      <div class="col s12 m4 l4 client-logo">
+        <%= image_tag 'vista.png' %>
+      </div>
+      <div class="col s12 m4 l4 client-logo">
+        <%= image_tag 'nols.png' %>
+      </div>
+      <div class="col s12 m4 l4 client-logo">
+        <%= image_tag 'wmi.png' %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <p><span style="color:white;">More Clients</span></p>
+      <div class="col s12 m4 l4 client-logo">
+        <%= image_tag 'silicon-logo.png' %>
+      </div>
+      <div class="col s12 m4 l4 client-logo">
+        <%= image_tag 'kyck.png' %>
+      </div>
+      <div class="col s12 m4 l4 client-logo">
+        <%= image_tag 'umb.png' %>
+      </div>
+    </div>
+  </div>
+
+  <!-- blog -->
+  <div class="row">
+    <div class="col s12">
+      <p><span>Blog</span></p>
+    </div>
+  </div>
+</div>
